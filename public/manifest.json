@@ -3,10 +3,7 @@
   "name": "boj-helper-extension",
   "description": "백준 문제 풀이시 백준 풀이로 넘어가는 버튼을 만들어주는 확장프로그램",
   "version": "0.1",
-  "permissions": ["activeTab", "scripting"],
-  "background": {
-    "service_worker": "./background.js"
-  },
+  "permissions": ["scripting"],
   "content_scripts": [
     {
       "matches": ["https://boj-helper.vercel.app/*"],
@@ -21,7 +18,7 @@
       "js": ["status.js"]
     },
     {
-      "matches": ["https://www.acmicpc.net/submit/*"],
+      "matches": ["https://www.acmicpc.net/submit/*/*"],
       "js": ["submit.js"]
     },
     {
@@ -30,6 +27,7 @@
     }
   ],
   "action": {
+    "default_popup": "popup.html",
     "default_icon": "favicon.png"
   },
   "icons": {
@@ -37,11 +35,5 @@
     "32": "favicon.png",
     "48": "favicon.png",
     "128": "favicon.png"
-  },
-  "web_accessible_resources": [
-    {
-      "resources": ["index.js"],
-      "matches": ["<all_urls>"]
-    }
-  ]
+  }
 }

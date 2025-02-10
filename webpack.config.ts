@@ -10,7 +10,6 @@ const config: webpack.Configuration = {
     submit: "./src/boj/solve.ts",
     status: "./src/boj/status.ts",
     solve: "./src/boj/solve.ts",
-    background: "./src/background.ts",
   },
   plugins: [
     new CopyWebpackPlugin({

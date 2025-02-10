@@ -7,7 +7,8 @@
     "dev": "ts-node src/index.ts",
     "start": "tsc && node dist/index.js",
     "webpack": "npm run clean && webpack",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "zip": "zip -r boj-helper-extension.zip dist/*"
   },
   "keywords": [],
   "author": "",

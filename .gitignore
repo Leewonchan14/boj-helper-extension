@@ -1,3 +1,5 @@
 node_modules/
 .vscode/
 dist/
+boj-helper-extension.zip
+.DS_Store
