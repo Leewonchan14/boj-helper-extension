@@ -14,18 +14,19 @@
     },
     {
       "matches": ["https://www.acmicpc.net/solve/*"],
-      "js": ["solve.js"],
-      "png": ["favicon.png"]
+      "js": ["solve.js"]
+    },
+    {
+      "matches": ["https://www.acmicpc.net/status*"],
+      "js": ["status.js"]
     },
     {
       "matches": ["https://www.acmicpc.net/submit/*"],
-      "js": ["submit.js"],
-      "png": ["favicon.png"]
+      "js": ["submit.js"]
     },
     {
       "matches": ["https://www.acmicpc.net/problem/*"],
-      "js": ["problem.js"],
-      "png": ["favicon.png"]
+      "js": ["problem.js"]
     }
   ],
   "action": {

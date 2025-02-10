@@ -1,6 +1,4 @@
-export function makeJsPySubmitButton() {
-  const problemNumber = Number(window.location.pathname.split("/").at(-1)) || 0;
-
+export function makeJsPySubmitButton(problemNumber: number) {
   const submitButtonNode = document.querySelector(
     `a[href='/submit/${problemNumber}']`
   )?.parentElement;

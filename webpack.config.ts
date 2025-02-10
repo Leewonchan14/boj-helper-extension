@@ -8,6 +8,7 @@ const config: webpack.Configuration = {
     helper: "./src/helper/helper.ts",
     problem: "./src/boj/problem.ts",
     submit: "./src/boj/solve.ts",
+    status: "./src/boj/status.ts",
     solve: "./src/boj/solve.ts",
     background: "./src/background.ts",
   },
