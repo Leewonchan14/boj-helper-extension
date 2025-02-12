@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run clean && tsc && cp ./public/* ./dist",
+    "build": "npm run clean && npm run webpack",
     "dev": "ts-node src/index.ts",
     "start": "tsc && node dist/index.js",
     "webpack": "npm run clean && webpack",

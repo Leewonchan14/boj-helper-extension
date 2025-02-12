@@ -7,7 +7,7 @@ const config: webpack.Configuration = {
   entry: {
     helper: "./src/helper/helper.ts",
     problem: "./src/boj/problem.ts",
-    submit: "./src/boj/solve.ts",
+    submit: "./src/boj/submit.ts",
     status: "./src/boj/status.ts",
     solve: "./src/boj/solve.ts",
   },
