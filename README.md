@@ -7,8 +7,12 @@ BOJ Helper Extension은 백준 온라인 저지(BOJ) 문제 페이지에 boj-hel
 
 ## 주요 기능
 
-• 백준 문제 페이지에 JavaScript와 Python 제출 버튼 추가
-  <img height="200" src="./assets/buttons.png">
+- 백준 문제 페이지에 JavaScript와 Python 제출 버튼 추가
 
-• boj-helper 사이트로 빠르게 이동하여 문제 해결에 도움을 줌
-  <img height="200" src="./assets/boj-helper.png">
+    <img height="200" src="./assets/buttons.png">
+    
+
+- boj-helper 사이트로 빠르게 이동하여 문제 해결에 도움을 줌
+
+    <img height="200" src="./assets/boj-helper.png">
+  
